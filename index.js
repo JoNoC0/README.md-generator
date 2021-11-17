@@ -35,14 +35,14 @@ const userQuestions = [{
 {
     name: 'email',
     type: 'input',
-    message: 'What is your email?'
+    message: 'What is your email?',
     validate: function (answer) {
         if (answer.length < 1) {
             return console.log('Email is required!');
         }
         return true;
     }
-}
+},
 {
     name: 'repo',
     type: 'input',
