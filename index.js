@@ -13,6 +13,7 @@
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
 
+// internal modules
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 
@@ -21,14 +22,37 @@ const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
 const userQuestions = [{
+    name: 'username',
+    type: 'input',
+    message: 'What is your GitHub username?(No @ needed)',
+    validate: function (answer) {
+        if (answer.length < 1) {
+            return console.log('A valid GitHub username is required!');
+        }
+        return true;
+    }
+},
+{
+    name: 'repo',
+    type: 'input',
+    message: 'What is the name of your GitHub repo?',
+    validate: function (answer) {
+        if (answer.length < 1) {
+            return console.log('A valid GitHub repo is required!')
+        }
+        return true;
+    }
+
+},
+{
     name: 'title',
     type: 'input',
-    message: 'What is the title of the project?'
+    message: 'What is the title of the project?(Required)'
 },
 {
     name: 'description',
     type: 'input',
-    message: 'What is the description of the project?'
+    message: 'What is the description of the project?(Required)'
 },
 {
     name: 'instructions',
@@ -49,6 +73,12 @@ const userQuestions = [{
     name: 'testInstructions',
     type: 'input',
     message: 'What is the instructions for testing?'
+},
+{
+    name: 'license',
+    type: 'list',
+    message: 'What license was used?',
+    choices: ['MIT', 'GPL_3.0', 'none']
 }];
 
 // TODO: Create a function to write README file
