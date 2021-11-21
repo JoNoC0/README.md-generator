@@ -1,20 +1,24 @@
-# t
-
+# john
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation_instructions)
 * [Usage Information](#usage_information)
 * [Contribution](#contribution)
 * [Testing Instructions](#testing_instructions)
-
+* [License](#license)
 ## Description
-t
+john
 ## Installation Instructions
-t
+john
 ## Usage Information
-t
+john
 ## Contribution
-t
+john
 ## Testing Instructions
-t
-
+john
+## License
+MIT
+## Contact
+The repos is at john and username is john
+Contact me at john

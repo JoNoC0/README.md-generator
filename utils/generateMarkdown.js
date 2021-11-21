@@ -53,7 +53,7 @@ ${data.testInstructions}
 ${renderLicenseSection(data.license)}
 ## Contact
 The repos is at ${data.repo} and username is ${data.username}
-Contact me at ${email}
+Contact me at ${data.email}
 `;
 }
 
