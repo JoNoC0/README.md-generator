@@ -43,18 +43,18 @@ ${renderLicenseLink(data.license)}
 ## Description
 ${data.description}
 ## Installation Instructions
-${data.instructions}
+${data.instruction}
 ## Usage Information
 ${data.usage}
 ## Contribution
 ${data.contribution}
 ## Testing Instructions
-${data.testInstructions}
+${data.testing}
 ${renderLicenseSection(data.license)}
 ## Contact
 The repos is at ${data.repo} and username is ${data.username}
 Contact me at ${data.email}
-`;
-}
+`};
+
 
 module.exports = generateMarkdown;
