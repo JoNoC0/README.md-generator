@@ -35,10 +35,10 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Description](#description)
-* [Installation](#installation_instructions)
-* [Usage Information](#usage_information)
+* [Installation](#installation)
+* [Usage Information](#usage)
 * [Contribution](#contribution)
-* [Testing Instructions](#testing_instructions)
+* [Testing Instructions](#testing)
 ${renderLicenseLink(data.license)}
 ## Description
 ${data.description}
