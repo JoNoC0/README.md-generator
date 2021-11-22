@@ -1,4 +1,4 @@
-# John
+# README.md-generator
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 * [Description](#description)
@@ -9,17 +9,19 @@
 * [Contact](#contact)
 * [License](#license)
 ## Description
-John
+will generate a README from user response to prompts
 ## Installation
-John
+User will clone respository. Go to the directory in terminal. use command "run index.js" in terminal.
 ## Usage
-John
+use command "node index.js" in terminal. answer the prompts in terminal. a new README file will be generated in directory.
 ## Contribution
-John
+UTA staff
 ## Testing
-John
+run "node index.js"
 ## License
 MIT
 ## Contact
-The repos is at John and username is JohnNo
-Contact me at John@email.com
+The repos is at https://github.com/JoNoC0/README.md-generator and username is JoNoCo
+Contact me at JNguyening@gmail.com
+
+Video Link: https://watch.screencastify.com/v/AX3cWXNri5gpvo0j1fze
