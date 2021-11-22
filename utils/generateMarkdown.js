@@ -35,26 +35,27 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Description](#description)
-* [Installation](#installation)
-* [Usage Information](#usage)
+* [Installation Instruction](#installationInstruction)
+* [Usage Information](#usageInformation)
 * [Contribution](#contribution)
-* [Testing Instructions](#testing)
+* [Testing Instruction](#testingInstruction)
 ${renderLicenseLink(data.license)}
 ## Description
 ${data.description}
-## Installation Instructions
-${data.instruction}
+## Installation Instruction
+${data.installationInstruction}
 ## Usage Information
-${data.usage}
+${data.usageInformation}
 ## Contribution
 ${data.contribution}
-## Testing Instructions
-${data.testing}
+## Testing Instruction
+${data.testingInstruction}
 ${renderLicenseSection(data.license)}
 ## Contact
 The repos is at ${data.repo} and username is ${data.username}
 Contact me at ${data.email}
-`};
+`
+}
 
 
 module.exports = generateMarkdown;
