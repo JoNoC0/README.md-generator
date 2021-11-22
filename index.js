@@ -66,7 +66,7 @@ const userQuestions = [{
     message: 'What is the description of the project?(Required)'
 },
 {
-    name: 'instructions',
+    name: 'instruction',
     type: 'input',
     message: 'What is the installation instructions?'
 },

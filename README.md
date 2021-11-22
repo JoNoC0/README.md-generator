@@ -1,24 +1,25 @@
-# john
+# John
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
-* [Usage Information](#usage)
+* [Usage](#usage)
 * [Contribution](#contribution)
-* [Testing Instructions](#testing)
+* [Testing](#testing)
+* [Contact](#contact)
 * [License](#license)
 ## Description
-john
-## Installation Instructions
-undefined
-## Usage Information
-john
+John
+## Installation
+John
+## Usage
+John
 ## Contribution
-john
-## Testing Instructions
-undefined
+John
+## Testing
+John
 ## License
 MIT
 ## Contact
-The repos is at john and username is john
-Contact me at john
+The repos is at John and username is JohnNo
+Contact me at John@email.com

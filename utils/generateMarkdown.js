@@ -35,21 +35,22 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Description](#description)
-* [Installation Instruction](#installationInstruction)
-* [Usage Information](#usageInformation)
+* [Installation](#installation)
+* [Usage](#usage)
 * [Contribution](#contribution)
-* [Testing Instruction](#testingInstruction)
+* [Testing](#testing)
+* [Contact](#contact)
 ${renderLicenseLink(data.license)}
 ## Description
 ${data.description}
-## Installation Instruction
-${data.installationInstruction}
-## Usage Information
-${data.usageInformation}
+## Installation
+${data.instruction}
+## Usage
+${data.usage}
 ## Contribution
 ${data.contribution}
-## Testing Instruction
-${data.testingInstruction}
+## Testing
+${data.testInstructions}
 ${renderLicenseSection(data.license)}
 ## Contact
 The repos is at ${data.repo} and username is ${data.username}
